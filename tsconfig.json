@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "ES2015",
+    "esModuleInterop": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "outDir": "compiled",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*", "typings/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
